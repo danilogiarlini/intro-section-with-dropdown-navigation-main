@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+body {
+  font-family: "Epilogue", sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+section {
+  height: 800px;
+  width: 1200px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: safe;
+  margin: 80px auto;
+}
+
+.intro {
+  margin: 96px 0;
+}
+
+.intro h1 {
+  font-size: 60px;
+  font-weight: 700;
+}
+
+.intro p {
+  color: gray;
+  margin: 50px auto;
+  padding-right: 350px;
+  text-align: left;
+}
+
+.intro button {
+  background-color: black;
+  padding: 12px 14px;
   color: white;
+  font-weight: 700;
+  border: 0;
+  border-radius: 8px;
 }
 
-.App-link {
-  color: #61dafb;
+.hero {
+  margin: 96px auto;
+  height: 500px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.clients {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+}
+
+.clients svg {
+  padding-right: 45px;
 }

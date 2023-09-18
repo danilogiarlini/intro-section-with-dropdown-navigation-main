@@ -1,0 +1,61 @@
+body {
+    font-family: 'Epilogue', sans-serif;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  height: 70px;
+}
+
+#snap {
+  padding: 40px;
+}
+
+.links {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: flex-start;
+  width: 70%;
+}
+
+.links li {
+  padding: 30px;
+}
+
+.links a {
+    color: gray;
+    text-decoration: none;
+}
+
+.access {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  justify-content: space-evenly;
+  width: 15%;
+}
+
+.access button {
+    font-family: 'Epilogue', sans-serif;
+    padding: 7px 12px;
+    border-radius: 10px;
+}
+
+#login {
+    color: gray;
+    background-color: transparent;
+    border: none;
+}
+
+#register {
+    color: gray;
+    background-color: transparent;
+    border: 1px solid gray;
+}
+
+
