@@ -3,6 +3,7 @@ body {
 }
 
 nav {
+  font-family: 'Epilogue', sans-serif;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -44,6 +45,7 @@ nav {
     font-family: 'Epilogue', sans-serif;
     padding: 7px 12px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 #login {

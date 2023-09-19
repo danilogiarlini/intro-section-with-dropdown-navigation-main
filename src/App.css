@@ -29,10 +29,17 @@ section {
 .intro button {
   background-color: black;
   padding: 12px 14px;
+  border: 1px solid black;
   color: white;
   font-weight: 700;
-  border: 0;
   border-radius: 8px;
+  cursor: pointer;
+}
+
+.intro button:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
 }
 
 .hero {

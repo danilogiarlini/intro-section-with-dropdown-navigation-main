@@ -1,0 +1,20 @@
+.dropdown-menu {
+  font-family: "Epilogue", sans-serif;
+  position: absolute;
+  top: 90%;
+  background-color: #fff;
+  box-shadow: 0 0 7px gray;
+  border: none;
+  border-radius: 4px;
+  padding: 5px 0;
+  list-style: none;
+}
+
+.dropdown-menu li {
+  padding: 5px 10px;
+  color: gray;
+}
+
+.dropdown-toggle {
+  cursor: pointer;
+}
